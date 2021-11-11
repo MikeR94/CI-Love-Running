@@ -224,7 +224,6 @@ footer{
 
 .social-networks{
     text-align: center;
-
 }
 
 .social-networks li{
@@ -234,20 +233,20 @@ footer{
 .social-networks i{
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 20px 50px 20px 50px;
     color: #3a3a3a;
 }
 
 /* Gallery Photos */
 
-#photo {
+#photos {
     clear: both;
-    line-height: 0;
+    line-height: 10px;
     column-count: 4;
     column-gap: 0px;
 }
 
-#photo img{
+#photos img{
     width: 100%;
 }
 
@@ -257,7 +256,7 @@ footer{
     clear: left;
     background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     height: 900px;
 }
 
@@ -381,14 +380,14 @@ footer{
         padding: 0 20px 0 20px;
     }
 
-    #photo{
+    #photos{
         column-count: 3;
     }
 }
 
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px){
-    #photo{
+    #photos{
         column-count: 2;
     }
 }
