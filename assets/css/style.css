@@ -242,32 +242,43 @@ footer{
 /* media queries */
 
 /* for larger to medium screen size from 1200px wide and down */
-@media screen and (max-width: 1200px){
-    #club-ethos{
+@media screen and (max-width: 1200px) {
+    #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
     }
-    
-    #welcome{
-        padding: 30px;
+
+    #welcome {
+        padding: 30px 0;
         margin: 0;
     }
 
-    #left-about, #right-about{
+    #left-about, #right-about {
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    #center-about{
+    #center-about {
         clear: both;
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    hr{
+    hr {
         display: none;
+    }
+}
+
+/* for medium screen size from 950px wide and down */
+@media screen and (max-width: 950px) {
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
